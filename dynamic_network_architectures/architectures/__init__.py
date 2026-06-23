@@ -1,0 +1,1 @@
+from dynamic_network_architectures.architectures.uzenn_res import ResEncUZenn
