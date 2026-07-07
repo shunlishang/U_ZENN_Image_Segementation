@@ -1,6 +1,6 @@
 # U-ZENN: U-Shape Zentropy-Enhanced Neural Network developed by Shun-Li Shang, Luke Myers, and Zi-Kui Liu at Penn State 
 
-U-ZENN is based on several ResNet, U-Net and VGG architectures in pytorch that can be dynamically adapted to a varying number of image dimensions (1D, 2D or 3D) and the number of input channels.
+U-ZENN is developed based on several ResNet, U-Net and VGG architectures in pytorch that can be dynamically adapted to a varying number of image dimensions (1D, 2D or 3D) and the number of input channels.
 
 ## Available models (Zentropy-based updates of dynamic_network_architectures)
 ### ResNet
@@ -15,6 +15,6 @@ In contrast to the original [VGG](https://arxiv.org/pdf/1409.1556.pdf) implement
 For the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) a plain convolutional encoder as well as a residual encoder are available. 
 
 # Acknowledgements
-Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging](https://www.helmholtz-imaging.de/).
+Original codes by Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging](https://www.helmholtz-imaging.de/).
 
 # Contact: Shun-Li Shang (sus26 at psu.edu)
