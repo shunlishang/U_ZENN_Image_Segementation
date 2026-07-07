@@ -2,9 +2,9 @@
 
 U-ZENN is developed based on several ResNet, U-Net and VGG architectures in pytorch that can be dynamically adapted to a varying number of image dimensions (1D, 2D or 3D) and the number of input channels.
 
-## Available models (Zentropy-based updates of dynamic_network_architectures)
+## Available models (Zentropy-based dynamic_network_architectures)
 ### ResNet
-We implement the standard [ResNetD](https://arxiv.org/pdf/1812.01187.pdf) 18, 34, 50 and 152. For ResNets 50 and 152 also bottleneck implementations are available. Moreover, adapted versions that are better suited for smaller image sizes such as CIFAR can be used.
+The standard [ResNetD](https://arxiv.org/pdf/1812.01187.pdf) 18, 34, 50 and 152 is implemented. For ResNets 50 and 152 also bottleneck implementations are available. Moreover, adapted versions that are better suited for smaller image sizes such as CIFAR can be used.
 
 All models additionally include regularization techniques like [Stochastic Depth](https://arxiv.org/pdf/1603.09382.pdf), [Squeeze & Excitation](https://arxiv.org/pdf/1709.01507.pdf) and [Final Layer Dropout](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf). 
 
@@ -15,6 +15,6 @@ In contrast to the original [VGG](https://arxiv.org/pdf/1409.1556.pdf) implement
 For the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) a plain convolutional encoder as well as a residual encoder are available. 
 
 # Acknowledgements
-Original codes by Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging](https://www.helmholtz-imaging.de/).
+Original codes were developled by Applied Computer Vision Lab (ACVL) of [Helmholtz Imaging](https://www.helmholtz-imaging.de/). 
 
 # Contact: Shun-Li Shang (sus26 at psu.edu)
